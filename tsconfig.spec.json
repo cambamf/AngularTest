@@ -1,0 +1,23 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "declaration": false,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noImplicitOverride": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": ["es2018", "dom"],
+    "module": "es2020",
+    "sourceMap": true,
+    "target": "es2017",
+    "outDir": "../build/async-state/spec",
+    "types": ["jasmine"]
+  },
+  "files": ["test.ts"],
+  "include": ["**/*.spec.ts", "test/**/*.d.ts"]
+}
